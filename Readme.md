@@ -20,7 +20,9 @@ population.
 diagonally adjacent. Most cells will have eight neighbors. Cells placed on the
 edge of the grid will have fewer.
 
+
 Deploying the Code: (example of deployment in tomcat server) 
+-----------------------------------------------------------
 
  This project is  is based on Spring MVC web application with maven and Junit tools using : Spring Tool Suite, Version: 3.8.2.RELEASE, Platform: Eclipse Neon.1 (4.6.1) and Tomcat server.
 1. Pull the git code, 
@@ -36,6 +38,7 @@ Deploying the Code: (example of deployment in tomcat server)
 	localhost:\<your port\> /\<name of war	file without .war\>
 
 Discussion in solutions/ Algorithm:
+-----------------------------------
 
 As this application is modeled as web-application. 
 It had common model: Dimension, 3 Controllers for HomeController, DimensionController, GameOfLifeController, and 2 services.
@@ -50,6 +53,7 @@ One can click one each element and then make it live. and then should put the it
 On submission of second page: loads gameoflifecontroller, it retrieves the 2 dimensional array grid  and then passed to service method to retrieve next generation.
 
 Process of Finding next Generation 
+-----------------------------------
 
 Lets us recall the rule:
 
