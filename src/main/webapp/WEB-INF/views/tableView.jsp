@@ -38,7 +38,7 @@ Please Click in the box to make it alive.
 		</c:forEach>
 		
 			<form:label path="itr">Iterate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</form:label>
-			<form:input type="number" path="itr"  value="0"/><br/>
+			<form:input type="number" path="itr" /><br/>
 			<form:label path="itrSpeed">Speed(ms)&nbsp;:</form:label>
 			<form:input type="number" path="itrSpeed" value="500"/><br/>
 			 
